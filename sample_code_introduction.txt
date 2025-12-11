@@ -1,0 +1,25 @@
+其他測試數據：
+
+ETTh1Dataset - Electricity transformer temperature (hourly, 2016-2018)
+
+ETTh2Dataset - Electricity transformer temperature (hourly, 2016-2018)
+
+date: The recorded date
+
+HUFL: High UseFul Load
+
+HULL: High UseLess Load
+
+MUFL: Medium UseFul Load
+
+MULL: Medium UseLess Load
+
+LUFL: Low UseFul Load
+
+LULL: Low UseLess Load
+
+OT: Oil Temperature (Target)
+
+size:約(17500, 7)
+
+evaluation使用的loss function:Mean Quantile Loss

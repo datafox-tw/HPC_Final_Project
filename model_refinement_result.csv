@@ -1,0 +1,16 @@
+Model_name, Training_epoch,training_time,steps_per_epoch, Val_loss_at_last_roung,Dataset_1_result, Dataset_2_result
+original_tsmixer_layernorm(就是原版), 47,88,81,0.226,0.809, 1.019
+original_TiDE,20,38,81,0.256,0.912,1.086
+original_tsmixer_layernorm1, 47,88,81,0.226,0.809, 1.019
+original_tsmixer_layernorm2 47,90,81,0.226,0.809, 1.019
+original_tsmixer_layernorm_addnewlrscheduler, 55,97,81,0.240,0.882,1.103
+original_tsmixer_timbatch2dnorm, 80,149,81,0.227,0.832, 1.025
+Channel-First-RMSnorm,95,139,81,0.224,0.835,1.041
+Channel-First-layernorm,112,163,81,0.224,0.839,1.036
+Channel-First-batchnnorm,95,140,81,0.224, 0.844,1.029
+Channel-First-RMSnorm_again,95,145,81,0.224,0.835,1.041
+Channel-First-RMSnorm_train47epochonly,47,74,81,0.226,0.859,1.044
+Convergence-Optimized-layernorm-addnewlrscheduler,98,155,81,0.247,0.943,1.127
+Convergence-Optimized-layernorm,99,150,81,0.226,0.846,1.037
+Simple_Channel-First_only_ablation_research, 60,109,81,0.228,0.848, 1.045
+
